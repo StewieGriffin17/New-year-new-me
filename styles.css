@@ -1,0 +1,214 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url('images/banner/banner3.png') no-repeat; 
+    background-size: cover;
+}
+.head-title{
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+    padding: 288px 275px 0px 1125px;
+    text-align: right;
+}
+.head-des{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 32px 275px 0px 1160px;
+    text-align: right;
+}
+.contact-btn{
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 25px 30px;
+    margin: 43px 275px 221px 1432px;
+}
+main{
+    margin: 0px 275px 0px 275px;
+}
+.failures{
+    display: flex;
+    gap: 161px;
+}
+.fail-img{
+    margin-top: 186px;
+    margin-bottom: 173px;
+}
+.fail-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 470px;
+    margin-bottom: 30px;
+    margin-right: 220px;
+}
+.fail-des{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-right: 210px;
+}
+.fail-text ul{
+    margin-bottom: 20px;
+}
+.fail-text ul li{
+    list-style-type: none;
+    margin-top: 12px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.fail-text ul li i{
+    color: #16D887;
+    margin-right: 12px;
+}
+.plans-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 66px;
+}
+.plans-details{
+    display: flex;
+    justify-content: space-between;
+}
+.plans-details li{
+    list-style-type: none;
+    text-align: center;
+}
+.plans-details-title{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-bottom: 21px;
+}
+.plan-des{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 173px;
+}
+.call{
+    background: url('images/watch.png') center no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 174px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+.call::after{
+    content: '';
+    position: absolute;
+    background: url('images/gradient1.png') no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.call-title{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 78px 740px 0px 76px;
+}
+.call-btn{
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border: 0;
+    border-radius: 5px;
+    margin: 32px 1100px 80px 76px;
+}
+.call-con{
+    z-index: 999;
+    position: absolute;
+}
+footer{
+    padding: 0px 275px 0px 275px;
+    background-color: black;
+}
+.foot{
+    display: flex;
+}
+.future-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 173px;
+}
+.future-des{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+    width: 500px;
+}
+.email{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 32px;
+}
+.phone{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.future-list{
+    display: flex;
+    margin-top: 40px;
+}
+.future-list li{
+    list-style-type: none;
+    margin-right: 20px;
+    margin-bottom: 173px;
+}
+.sub-title{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 465px;
+    margin-top: 173px;
+}
+
+.subscribe input{
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 180px 25px 25px;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 8px;
+    display: block;
+    margin-left: 465px;
+    margin-top: 40px;
+}
+.sub-btn{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #005FAC;
+    border: 0;
+    border-radius: 5px;
+    padding: 26px 43px;
+    margin-top: 20px;
+    margin-left: 465px;
+}
